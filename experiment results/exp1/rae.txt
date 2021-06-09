@@ -1,0 +1,39 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -show-avg -print-col-names -print-row-names -enum-col-names"
+Analysing:  Relative_absolute_error
+Datasets:   11
+Resultsets: 9
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       02/05/2021 19:23
+
+
+Dataset                   (1) function | (2) funct (3) funct (4) meta. (5) meta. (6) meta. (7) meta. (8) meta. (9) meta.
+------------------------------------------------------------------------------------------------------------------------
+opla_dm1_nominal         (100)   34.73 |   11.09 *   52.62 v   19.06 *   23.81 *   44.58 v   31.85     32.81     52.62 v
+opla_dm10_nominal        (100)   25.03 |   16.42 *   58.40 v   31.87 v   22.90     43.88 v   37.41 v   33.28 v   58.40 v
+opla_dm11_nominal        (100)   14.83 |   18.34     58.06 v   34.33 v   16.68     36.54 v   38.20 v   30.41 v   58.18 v
+opla_dm12_nominal        (100)   36.77 |   32.15     63.75 v   48.80 v   37.31     53.11 v   47.95 v   44.22 v   77.35 v
+opla_dm3_nominal         (100)   24.81 |   19.44     61.72 v   36.38 v   23.00     44.14 v   40.58 v   35.32 v   61.72 v
+opla_dm4_nominal         (100)   33.27 |   17.88 *   54.10 v   34.94     27.70     45.81 v   35.99     35.08     54.10 v
+opla_dm5_nominal         (100)   66.75 |   23.90 *   52.38 *   46.32 *   45.92 *   60.16     38.14 *   47.68 *   52.38 *
+opla_dm6_nominal         (100)   83.10 |   34.06 *   50.57 *   66.12 *   56.57 *   64.83 *   42.32 *   55.91 *   50.57 *
+opla_dm7_nominal         (100)   43.66 |   12.45 *   48.69     26.67 *   22.98 *   41.10     30.57 *   34.94 *   48.69  
+opla_dm8_nominal         (100)   36.18 |   50.16 v   52.87 v   91.59 v   44.43 v   45.79 v   51.52 v   46.40 v   52.87 v
+opla_dm9_nominal         (100)   17.64 |   10.37 *   55.42 v   20.99     14.79     37.31 v   32.89 v   27.81 v   55.42 v
+------------------------------------------------------------------------------------------------------------------------
+Average                          37.89 |   22.39     55.33     41.55     30.55     47.02     38.86     38.53     56.57  
+------------------------------------------------------------------------------------------------------------------------
+                               (v/ /*) |   (1/3/7)   (8/1/2)   (5/2/4)   (1/6/4)   (8/2/1)   (6/2/3)   (6/2/3)   (8/1/2)
+
+
+Key:
+(1) functions.MultilayerPerceptron '-L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H i' -5990607817048210779
+(2) functions.LibSVM '-S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model \"C:\\\\Program Files\\\\Weka-3-9-5\" -seed 1' 14172
+(3) functions.SMO '-C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K \"functions.supportVector.PolyKernel -E 1.0 -C 250007\" -calibrator \"functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4\"' -6585883636378691736
+(4) meta.Stacking '-X 10 -M \"functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a\" -S 1 -num-slots 1 -B \"functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model \\\"C:\\\\\\\\Program Files\\\\\\\\Weka-3-9-5\\\" -seed 1\" -B \"functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K \\\"functions.supportVector.PolyKernel -E 1.0 -C 250007\\\" -calibrator \\\"functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4\\\"\"' 5134738557155845452
+(5) meta.Vote '-S 1 -B \"functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model \\\"C:\\\\\\\\Program Files\\\\\\\\Weka-3-9-5\\\" -seed 1\" -B \"functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a\" -R AVG' -637891196294399624
+(6) meta.Vote '-S 1 -B \"functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K \\\"functions.supportVector.PolyKernel -E 1.0 -C 250007\\\" -calibrator \\\"functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4\\\"\" -B \"functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a\" -R AVG' -637891196294399624
+(7) meta.Vote '-S 1 -B \"functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model \\\"C:\\\\\\\\Program Files\\\\\\\\Weka-3-9-5\\\" -seed 1\" -B \"functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K \\\"functions.supportVector.PolyKernel -E 1.0 -C 250007\\\" -calibrator \\\"functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4\\\"\" -R AVG' -637891196294399624
+(8) meta.Vote '-S 1 -B \"functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H i\" -B \"functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model \\\"C:\\\\\\\\Program Files\\\\\\\\Weka-3-9-5\\\" -seed 1\" -B \"functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K \\\"functions.supportVector.PolyKernel -E 1.0 -C 250007\\\" -calibrator \\\"functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4\\\"\" -R AVG' -637891196294399624
+(9) meta.ClassificationViaRegression '-W functions.LeastMedSq -- -S 4 -G 3' 4500023123618669859
+

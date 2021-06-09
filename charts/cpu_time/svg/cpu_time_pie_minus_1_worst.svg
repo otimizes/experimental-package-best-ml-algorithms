@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="160mm" height="90mm" viewBox="0 0 16000 9000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-width="28.222" stroke-linejoin="round" xml:space="preserve">
+ <path fill="rgb(255,255,255)" stroke="none" d="M 7999,8973 L 0,8973 0,0 15997,0 15997,8973 7999,8973 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 8147,671 C 7722,671 7298,738 6893,869 6488,1001 6106,1196 5761,1446 5416,1697 5113,2000 4862,2345 4612,2690 4417,3072 4285,3477 4154,3882 4087,4306 4087,4731 4087,5157 4154,5581 4285,5986 4417,6391 4612,6773 4862,7118 5113,7463 5416,7766 5761,8017 6106,8267 6488,8462 6893,8594 7298,8725 7722,8793 8147,8793 8517,8793 8885,8742 9241,8642 L 8147,4731 8147,4731 8147,4731 8147,4731 8147,4731 8147,4731 8147,4731 8147,4731 8147,4731 8147,4731 8147,4731 8147,4731 8147,671 Z"/>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 9241,8642 C 9295,8627 9349,8611 9402,8594 9807,8462 10189,8267 10534,8017 10879,7766 11182,7463 11433,7118 11683,6773 11878,6391 12010,5986 12141,5581 12209,5157 12209,4731 12209,4306 12141,3882 12010,3477 11929,3227 11823,2986 11696,2757 L 8147,4731 8147,4731 8147,4731 8147,4731 8147,4731 8147,4731 8147,4731 8147,4731 9241,8642 Z"/>
+ <path fill="rgb(255,211,32)" stroke="none" d="M 11696,2757 C 11641,2659 11583,2563 11520,2470 L 8147,4731 8147,4731 11696,2757 Z"/>
+ <path fill="rgb(87,157,28)" stroke="none" d="M 11520,2470 C 11492,2428 11463,2386 11433,2345 11182,2000 10879,1697 10534,1446 10428,1369 10318,1297 10205,1231 L 8147,4731 8147,4731 8147,4731 8147,4731 11520,2470 Z"/>
+ <path fill="rgb(126,0,33)" stroke="none" d="M 10205,1231 C 10205,1230 10205,1230 10204,1230 L 8147,4731 8147,4731 10205,1231 Z"/>
+ <path fill="rgb(131,202,255)" stroke="none" d="M 10204,1230 C 9951,1081 9682,960 9402,869 8997,738 8573,671 8147,671 L 8147,671 8147,4731 8147,4731 8147,4731 8147,4731 10204,1230 Z"/>
+ <path fill="rgb(0,69,134)" stroke="none" d="M 1387,5415 L 1282,5415 1282,5204 1493,5204 1493,5415 1387,5415 Z"/>
+ <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="1594" y="5424"><tspan fill="rgb(0,0,0)" stroke="none">MLP (500) 54%</tspan></tspan></tspan></text>
+ <path fill="rgb(255,66,14)" stroke="none" d="M 12140,6662 L 12034,6662 12034,6451 12245,6451 12245,6662 12140,6662 Z"/>
+ <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="12345" y="6670"><tspan fill="rgb(0,0,0)" stroke="none">LMS 29%</tspan></tspan></tspan></text>
+ <path fill="rgb(255,211,32)" stroke="none" d="M 11845,2446 L 11739,2446 11739,2235 11950,2235 11950,2446 11845,2446 Z"/>
+ <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="12050" y="2455"><tspan fill="rgb(0,0,0)" stroke="none">C-SVC 1%</tspan></tspan></tspan></text>
+ <path fill="rgb(87,157,28)" stroke="none" d="M 11141,1580 L 11035,1580 11035,1369 11246,1369 11246,1580 11141,1580 Z"/>
+ <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="11346" y="1589"><tspan fill="rgb(0,0,0)" stroke="none">RandomTree 7%</tspan></tspan></tspan></text>
+ <path fill="rgb(126,0,33)" stroke="none" d="M 10387,1014 L 10281,1014 10281,803 10492,803 10492,1014 10387,1014 Z"/>
+ <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="10592" y="1023"><tspan fill="rgb(0,0,0)" stroke="none">KStar 0%</tspan></tspan></tspan></text>
+ <path fill="rgb(131,202,255)" stroke="none" d="M 8515,581 L 8409,581 8409,370 8620,370 8620,581 8515,581 Z"/>
+ <text class="TextShape"><tspan class="TextParagraph" font-family="Liberation Sans, sans-serif" font-size="353px" font-weight="400"><tspan class="TextPosition" x="8720" y="590"><tspan fill="rgb(0,0,0)" stroke="none">MCS 8%</tspan></tspan></tspan></text>
+</svg>
