@@ -1,4 +1,4 @@
-# experimental-package-best-configurations
+## Investigating the use of Machine Learning algorithms to represent the Decision Maker profile in Search-Based Product Line Design
 
 | Algorithm  | Hidden layers | Learning rate | Training time | Sample Size | Kernel Type | SVM Type | Iterations | Global Bend | Combination Rule | Classifiers |
 |---|---|---|---|---|---|---|---|---|---|---|
