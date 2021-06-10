@@ -11,3 +11,5 @@
 | RC Random Tree | - | - | - | - | - | - | 100 | - | - | - |
 | K* | - | - | - | - | - | - | - | 20 | - | - |
 | MCS (Vote) | - | - | - | - | - | - | - | - | Average of Probabilities | LibSVM + KStar + RandomComitte of RandomTree
+
+The other parameters not shown here, it was used according to the weka default values.
