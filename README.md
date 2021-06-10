@@ -1,5 +1,7 @@
 ## Investigating the use of Machine Learning algorithms to represent the Decision Maker profile in Search-Based Product Line Design
 
+### Table of Machine Learning Algorithms Properties
+
 | Algorithm  | Hidden layers | Learning rate | Training time | Sample Size | Kernel Type | SVM Type | Iterations | Global Bend | Combination Rule | Classifiers |
 |---|---|---|---|---|---|---|---|---|---|---|
 | MLP (500) | i | 0.3 | 500 | - | - | - | - | - | - | - | - |
