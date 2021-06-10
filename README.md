@@ -12,4 +12,4 @@
 | K* | - | - | - | - | - | - | - | 20 | - | - |
 | MCS (Vote) | - | - | - | - | - | - | - | - | Average of Probabilities | LibSVM + KStar + RC RandomTree
 
-The other parameters not shown here, it was used according to the weka default values. The parameters of algorithms into the MCS are the same of the indivually shown.
+The other parameters not shown here were used according to the default weka values. The parameters of algorithms into the MCS are the same as those shown indivually.
