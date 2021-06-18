@@ -24,6 +24,7 @@ The other parameters not shown here were used according to the default weka valu
 | DM 2 | Graduate | No | No | Basic | Basic |
 | DM 3 | Master's degree | Yes | No | Advanced | Advanced |
 | DM 4 | Master's degree | Yes | No | Advanced | Advanced |
+| DM 5 | Graduate | Yes | No | Intermediary | Intermediary |
 | DM 6 | Graduate | Yes | No | Intermediary | Intermediário |
 | DM 7 | Graduate | Yes | No | Intermediary | Intermediário |
 | DM 8 | Specialization | No | Yes | Intermediário | Intermediary |
