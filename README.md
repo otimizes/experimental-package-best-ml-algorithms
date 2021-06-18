@@ -18,8 +18,8 @@ The other parameters not shown here were used according to the default weka valu
 \multirow{2}{*}{\textbf{DM}} & \multirow{2}{*}{\textbf{Escolaridade}}  & \multirow{2}{*}{\textbf{Estudante de}} & \multirow{2}{*}{\textbf{Trabalha em}} & \multicolumn{2}{c}{\textbf{Conhecimento}}  
 ### Table of participants
 
-| DM | Scholarity | Student of * | Works in * | Knowledge
-|---|---|---|---|---|---|---|---|---|---|---|
+| DM | Scholarity | Graduate Student | Works in industry | Knowledge in UML | Knowledge in PLA
+|---|---|---|---|---|---|
 | DM 1 | Master's degree | Yes | Yes | Intermediary | Intermediary |
 | DM 2 | Graduate | No | No | Basic | Basic |
 | DM 3 | Master's degree | Yes | No | Advanced | Advanced |
