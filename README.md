@@ -14,8 +14,6 @@
 
 The other parameters not shown here were used according to the default weka values. The parameters of algorithms into the MCS are the same as those shown indivually.
 
-
-\multirow{2}{*}{\textbf{DM}} & \multirow{2}{*}{\textbf{Escolaridade}}  & \multirow{2}{*}{\textbf{Estudante de}} & \multirow{2}{*}{\textbf{Trabalha em}} & \multicolumn{2}{c}{\textbf{Conhecimento}}  
 ### Table of participants
 
 | DM | Scholarity | Graduate Student | Works in industry | Knowledge in UML | Knowledge in PLA
