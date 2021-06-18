@@ -15,19 +15,20 @@
 The other parameters not shown here were used according to the default weka values. The parameters of algorithms into the MCS are the same as those shown indivually.
 
 
+\multirow{2}{*}{\textbf{DM}} & \multirow{2}{*}{\textbf{Escolaridade}}  & \multirow{2}{*}{\textbf{Estudante de}} & \multirow{2}{*}{\textbf{Trabalha em}} & \multicolumn{2}{c}{\textbf{Conhecimento}}  
 ### Table of participants
 
-| Algorithm  | Hidden layers | Learning rate | Training time | Sample Size | Kernel Type | SVM Type | Iterations | Global Bend | Combination Rule | Classifiers |
+| DM | Scholarity | Student of * | Works in * | Knowledge
 |---|---|---|---|---|---|---|---|---|---|---|
-| DM 1 | Mestrado | Sim | Sim | Intermediário | Intermediário |
-| DM 2 | Graduação | Não | Não | Básico | Básico |
-| DM 3 | Mestrado | Sim | Não | Avançado | Avançado |
-| DM 4 | Mestrado | Sim | Não | Avançado | Avançado |
-| DM 6 | Graduação | Sim | Não | Intermediário | Intermediário |
-| DM 7 | Graduação | Sim | Não | Intermediário | Intermediário |
-| DM 8 | Especialização | Não | Sim | Intermediário | Intermediário |
-| DM 9 | Mestrado | Sim | Sim | Básico | Básico |
-| DM 10 | Mestrado | Não | Não | Avançado | Intermediário |
-| DM 11 | Especialização | Sim | Não | Intermediário | Intermediário |
+| DM 1 | Master's degree | Yes | Yes | Intermediary | Intermediary |
+| DM 2 | Graduate | No | No | Basic | Basic |
+| DM 3 | Master's degree | Yes | No | Advanced | Advanced |
+| DM 4 | Master's degree | Yes | No | Advanced | Advanced |
+| DM 6 | Graduate | Yes | No | Intermediary | Intermediário |
+| DM 7 | Graduate | Yes | No | Intermediary | Intermediário |
+| DM 8 | Specialization | No | Yes | Intermediário | Intermediary |
+| DM 9 | Master's degree | Yes | Yes | Basic | Basic |
+| DM 10 | Master's degree | No | No | Advanced | Intermediary |
+| DM 11 | Specialization | Yes | No | Intermediary | Intermediary |
 
 
